@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    main{
+        margin: 25px;
+    }
+}
+
+section {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25rem;
+    div{
+        width: 50%;
+        .titu{
+            padding: 15px;
+            font-size: 20px;
+            font-weight: 100;
+            border: 1px solid;
+            border-radius: 50px;
+            width: max-content;
+        }
+    }
+}
+
+h1,
+h2,
+h3,
+p {
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Literata', serif;
+    font-size: 50px;
+}
+
+img,
+video {
+    border-radius: 5px;
+    width: 200px;
+    width: 15px;
+}
+
+/*a {
+    text-decoration: none;
+    background-image: linear-gradient(white, grey);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}*/
+
+header {
+    position: sticky;
+    top: 0;
+
+    background-color: black;
+
+    nav ul {
+        padding: 2%;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: grey;
+            opacity: 0.8;
+
+        }
+    }
+}
+
+// .ovalo{
+
+// }
