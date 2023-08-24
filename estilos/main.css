@@ -12,16 +12,20 @@ body main {
 }
 
 section {
+  height: 30rem;
+  margin: 50px 0;
+}
+
+.div-row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  height: 25rem;
 }
-section div {
+.div-row div {
   width: 50%;
 }
-section div .titu {
+.div-row div .titu {
   padding: 15px;
   font-size: 20px;
   font-weight: 100;
@@ -31,11 +35,21 @@ section div .titu {
   width: max-content;
 }
 
+hr {
+  width: 34%;
+}
+
 h1,
 h2,
 h3,
+ul,
+a,
 p {
   color: white;
+}
+
+li {
+  color: grey;
 }
 
 h1,
@@ -43,24 +57,22 @@ h2,
 h3 {
   font-family: "Hanken Grotesk", sans-serif;
   font-family: "Literata", serif;
-  font-size: 50px;
+  font-size: 75px;
 }
 
-img,
-video {
+video, img {
   border-radius: 5px;
   width: 200px;
-  width: 15px;
 }
 
-/*a {
-    text-decoration: none;
-    background-image: linear-gradient(white, grey);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-}*/
+a {
+  text-decoration: underline;
+  transition: background-size 0.3s;
+}
+a svg {
+  padding-right: 10px;
+}
+
 header {
   position: sticky;
   top: 0;
@@ -82,4 +94,49 @@ header nav ul a {
 header nav ul a:hover {
   color: grey;
   opacity: 0.8;
+}
+
+.ovalo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.ovalo ov1 {
+  display: inherit;
+  justify-content: center;
+}
+
+.div-2 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 330px;
+}
+
+.link-costado {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.tam-24 {
+  font-size: 24px;
+}
+
+.margen {
+  margin: 60px 0;
+}
+
+#proy .div-row .div-2 img {
+  min-height: 1.737 em;
+}
+
+.img-seccion {
+  border-radius: 5px;
+  max-width: 50%;
+}
+
+.img-muestra {
+  max-width: 100%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
